@@ -20,12 +20,11 @@ Subir confirmaciones de cambios a un repositorio remoto -->
 <body>
     <h1>Etiquetas html</h1>
 
-    <tag atributo="contenido">
+    <ol atributo="contenido">
         <p>Existen otros tipos de etiquetas para crear una pagina web en <b>HTML5</b> que nos permiten encuadrar otros <br> dentro de las paginas web. Algunas de las más usadas son: </p>
         
-        <li 
-        style="color:#ff0088">
-            <p><b> 1.< a ></b></p>
+        <li style="color:#ff0088">
+            <b> < a ></b>
         </li>
             <p>permite anclar una dirección URL <br> Ejemplo:</p>  
             
@@ -34,7 +33,7 @@ Subir confirmaciones de cambios a un repositorio remoto -->
     </li>
     <li 
     style="color:#ff0088">
-        <p><b> 2.< abbr ></b></p>
+        <b> < abbr ></b>
     </li> 
         <p>Representa una abreviación o acronimo el atributo opcional title puede ampliar o describir la abrebiatura,<br>
             si esta presente el atributo title tiene que contener la descripción completa y nada más<br>
@@ -43,20 +42,23 @@ Subir confirmaciones de cambios a un repositorio remoto -->
         
     <li 
     style="color:#ff0088">
-        <p><b> 3.< address ></b></p>
+        <b> < address ></b>
     </li> 
         <p>Define la información de contacto del autor/propietario de un documento u artículo.<br>
             Ejemplo:<br>
             Escrito por  </style>
             <a href="https://github.com/Alfonso6z">Alfonso6z</a></p>
         
-    <li   style="color:#ff0088"><p><b> 4.< article ></b></p></li> 
+    <li   style="color:#ff0088"><b> < article ></b></li> 
             <p>Un artículo debe tener sintido por sí mismo y debe ser posible distriburilo independientemente del resto<br>
                 del sitio.<br>
                 Fuentes potenciales para el elento article:</li><br>
-                <li>Publicacion en el foro</li><br>
-                <li>Entrada en el blog</li><br>
-                <li>Noticia</li><br>
+                <ul>
+                    <li>Publicacion en el foro</li><br>
+                    <li>Entrada en el blog</li><br>
+                    <li>Noticia</li>
+                </ul>
+                <br>
                 <b>NOTA</b> < article > no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para<br>
                 darle diseño</p> <br>       
                 </style>
@@ -65,7 +67,7 @@ Subir confirmaciones de cambios a un repositorio remoto -->
 
         <li 
         style="color:#ff0088">
-            <p><b> 5.< aside ></b></p>
+            <b> < aside ></b>
         </li> 
             <p>Define algún contenido además del contenido en el que se coloca. El contenido aparte de be estar<br>
                 indirectamente relacionado con el continido circulante.<br>
@@ -94,12 +96,12 @@ Subir confirmaciones de cambios a un repositorio remoto -->
         <p>Define un botón en el que es puede hacer clic.<br>
             Dentro de un < button > puedes poner texto (y etiquteas como < i>,< b>,< strong>,< img>, etc ). !Eso no es<br>
             posible con un botón creado con el < input><br>
-            Sugerencia:Especifique siembre el type de un < button>, para indicar a los navegadores qué tipo de botón<br>
+            <b>Sugerencia:</b>Especifique siembre el type de un < button>, para indicar a los navegadores qué tipo de botón<br>
             es.<br>
-            Consejo: Puede diseñar botones facilmente con CSS<br>
-            Ejemplo:</p><br>
-            <button style="background-color: green; color: white;"</button>boton-1</button>       
-            <button style="background-color: rgb(19, 0, 128); color: white;"</button>boton-2</button>
+            <b>Consejo: Puede diseñar botones facilmente con CSS</b> <br>
+            <br>Ejemplo:</p><br>
+            <button style="background-color: #4CAF50; color: white; border: none; padding: 10px;"</button>Botón 1</button>       
+            <button style="background-color: #008CBA; color: white; border: none; padding: 10px;"</button>Botón 2</button>
             <li 
             style="color:#ff0088">
                 <p><b> 8.< form ></b></p>
@@ -204,7 +206,7 @@ Ejemplo form.
     style="color:#ff0088">
     <p><b> 17.< audio ></b></p>
 </li>
-    </tag>
+</ol>
     
 
 </body>
