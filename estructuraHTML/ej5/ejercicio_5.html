@@ -10,227 +10,337 @@ Subir confirmaciones de cambios a un repositorio remoto -->
 <!-- img/imagen.png -->
 <!-- ../img/imagen.png -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etiquetas</title>
 </head>
+
 <body>
     <h1>Etiquetas html</h1>
+    <p>Existen otros tipos de etiquetas para crear una pagina web en <b>HTML5</b>
+        que nos permiten encuadrar otros <br> dentro de las paginas web.
+        Algunas de las más usadas son: </p>
+    
+    <main>
+        <ol>
+            <!-- 1 -->
+            <li style="color:#ff0088">
+                <b>< a></b>
+            </li>
+            <p>Permite anclar una dirección URL <br> Ejemplo:</p>
+            <a href="example/anclar.html">Ejemplo de anclar en css</a>
+            <!-- 2     -->
+            <li style="color:#ff0088">
+                <b>< abbr></b>
+            </li>
+            <p>
+                Representa una abreviación o acronimo el atributo opcional title puede ampliar
+                o describir la abrebiatura,<br>
+                si esta presente el atributo title tiene que contener la descripción completa
+                y nada más<br>
+                Ejemplo:<br>
+                Yo hago <abbr title="El significado del contenido">HTML</abbr>
+                
+            </p>
+            <!-- 3 -->
+            <li style="color:#ff0088">
+                <b>< address></b>
+            </li>
+            <p>Define la información de contacto del autor/propietario de un documento u artículo.<br>
+                Ejemplo:<br>
+                <address>Escrito por: <a href="https://github.com/Alfonso6z">Alfonso6z</a></address>
+            </p>
+            <!-- 4   -->
+            <li style="color:#ff0088">
+                <b>< article></b>
+            </li>
+            <p>Un artículo debe tener sentido por sí mismo y debe ser posible distribuirlo
+                independientemente del resto<br>
+                del sitio.<br>
+                Fuentes potenciales para el elento article:<br>
+                <ul>
+                    <li>Publicacion en el foro</li><br>
+                    <li>Entrada en el blog</li><br>
+                    <li>Noticia</li>
+                </ul><br>
+            <b>NOTA</b>
+            < article> no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para<br>
+                darle diseño
+            </p> <br>
+            <a href="example/article.html">Ejemplo de article en css</a></li><br><br>
+            <!-- 5 -->
+            <li style="color:#ff0088">
+                <b>< aside></b> 
+            </li>
+            <p>Define algún contenido además del contenido en el que se coloca.
+                El contenido aparte de be estar<br>
+                indirectamente relacionado con el continido circulante.<br>
+                Sugerencia: aside se coloca a menudo como una barra lateral en un documento.<br>
+                Nota:Este elemento no se muestra como algo especial en el navegador.
+                Sin embargo, puede usar CSS para<br>
+                diseñar el aside.<br></p><br>
+            <a href="example/aside.html">Ejemplo de aside en css</a>
+            <!-- 6 -->
+            <li style="color:#ff0088">
+                <b>< audio></b>
+            </li>
+            <p>Agrega controles de audio, como reproducción, pausa y volumen.
+                El < source> permite especificar<br>
+                    archivos de audio alternativos entro los que puede elegirl el navegador.<br>
+                    Ejemplo:</p><br>
+            <audio controlS>
+                <source src="audio/teclado-mecanografia.mp3">
+            </audio>
+            <!-- 7 -->
+            <li style="color:#ff0088">
+                <b>< button></b>
+            </li>
+            <p>Define un botón en el que es puede hacer clic.<br>
+                Dentro de un < button> puedes poner texto (y etiquteas como < i>,< b>,< strong>,
+                < img>, etc ). !Eso no es<br> posible con un botón creado con el < input><br>
+                <b>Sugerencia:</b>Especifique siembre el type de un < button>,
+                ara indicar a los navegadores qué tipo de botón<br>
+                es.<br>
+                <b>Consejo: Puede diseñar botones facilmente con CSS</b> <br>
+                <br>Ejemplo:</p><br>
+            <button style="background-color: #4CAF50; color: white; border: none; padding: 15px;" </button>Botón
+                1</button>
+            <button style="background-color: #008CBA; color: white; border: none; padding: 15px;" </button>Botón
+                2</button>
+            <!-- 8 -->
+            <li style="color:#ff0088">
+                <b> 8.< form></b>
+            </li>
+            <p>Es un contenedor para difentes tipos de elementos de entrada, como: campos de texto,
+                casillas de <br>verificacion, botones de opcion botones de envio, etc. <br></p>
 
-    <ol atributo="contenido">
-        <p>Existen otros tipos de etiquetas para crear una pagina web en <b>HTML5</b>
-            que nos permiten encuadrar otros <br> dentro de las paginas web. 
-            Algunas de las más usadas son: </p>
-<!-- 1 -->
-        <li style="color:#ff0088"><b> < a ></b></li>
-        <p>Permite anclar una dirección URL <br> Ejemplo:</p>
-        <a href="example/anclar.html">Ejemplo de anclar en css</a></li>
-<!-- 2     -->
-        <li style="color:#ff0088"><b> < abbr ></b></li> 
-        <p>Representa una abreviación o acronimo el atributo opcional title puede ampliar 
-            o describir la abrebiatura,<br> 
-            si esta presente el atributo title tiene que contener la descripción completa 
-            y nada más<br> 
-            Ejemplo:<br> 
-            Yo hago HTML</p>
-<!-- 3 -->
-        <li style="color:#ff0088"><b> < address ></b></li>
-        <p>Define la información de contacto del autor/propietario de un documento u artículo.<br>
-        Ejemplo:<br>
-        Escrito por:
-        <a href="https://github.com/Alfonso6z">Alfonso6z</a></p>
-<!-- 4   -->
-        <li   style="color:#ff0088"><b> < article ></b></li> 
-        <p>Un artículo debe tener sintido por sí mismo y debe ser posible distriburilo 
-            independientemente del resto<br> 
-            del sitio.<br> 
-            Fuentes potenciales para el elento article:</li><br>
-        <ul>
-        <li>Publicacion en el foro</li><br>
-        <li>Entrada en el blog</li><br>
-        <li>Noticia</li>
-        </ul>
-        <br>
-        <b>NOTA</b> < article > no se muestra como algo especial en un navegaror.Sin embargo, puede usar CSS para<br>
-        darle diseño</p> <br>       
-        <a href="example/article.html">Ejemplo de article en css</a></li><br> <br>
-<!-- 5 -->
-        <li style="color:#ff0088"><b> < aside ></b> </li>
-        <p>Define algún contenido además del contenido en el que se coloca.
-            El contenido aparte de be estar<br>
-            indirectamente relacionado con el continido circulante.<br>
-            Sugerencia: aside se coloca a menudo como una barra lateral en un documento.<br>
-            Nota:Este elemento no se muestra como algo especial en el navegador. 
-            Sin embargo, puede usar CSS para<br>
-            diseñar el aside.<br></p><br>
-        <a href="example/aside.html">Ejemplo de aside en css</a></li>
-<!-- 6 -->
-        <li style="color:#ff0088"><p><b> < audio ></b></p></li>
-        <p>Agrega controles de audio, como reproducción, pausa y volumen. 
-            El < source> permite especificar<br>
-            archivos de audio alternativos entro los que puede elegirl el navegador.<br>
-            Ejemplo:</p><br>    
-        <audio controlS>
-            <source src="audio/teclado-mecanografia.mp3">
-        </audio>
-<!-- 7 -->
-    <li style="color:#ff0088"><p><b> < button ></b></p></li> 
-        <p>Define un botón en el que es puede hacer clic.<br>
-            Dentro de un < button > puedes poner texto (y etiquteas como < i>,< b>,< strong>,
-            < img>, etc ). !Eso no es<br> posible con un botón creado con el < input><br>
-            <b>Sugerencia:</b>Especifique siembre el type de un < button>, 
-            para indicar a los navegadores qué tipo de botón<br>
-            es.<br>
-            <b>Consejo: Puede diseñar botones facilmente con CSS</b> <br>
-            <br>Ejemplo:</p><br>
-            <button style="background-color: #4CAF50; color: white; border: none; padding: 15px;"</button>Botón 1</button>       
-            <button style="background-color: #008CBA; color: white; border: none; padding: 15px;"</button>Botón 2</button>
-            <li 
-            style="color:#ff0088">
-                <p><b> 8.< form ></b></p>
-<!-- 8 -->
-    </li> <p>Es un contenedor para difentes tipos de elementos de entrada, como: campos de texto,
-         casillas de <br>verificacion, botones de opcion botones de envio, etc. <br></p>           
-    <ul>                     
-    <li> < input type="text"><br><br>
-    Mustra un campo de entrada de texto de una solo linea<br><br>
-    <input type="text"><br></li>
-
-    <li>< input type="radio"><br>
-    Muestra un botón de radio(para selecionar una de muchas opciones)<br>
-    <input type="radio"> <input type="radio"> <input type="radio"> <br></li>
-
-    <li>< input type="checkbox"><br>
-        
-    Muestra una casilla de verificación(para selecionar cero o más opciónes)<br>
-        <input type="checkbox"> <input type="checkbox"> <br></li>
-
-    <li>< input type="submit"><br>
-    Muestra un botón de envio(para enviar el formulario)<br>
-    <br>
-    <input type="submit"><br></li>
-
-    <li> < input type="button"><br>
-    Muestra un botón en e que sepuede hacer clic<br>
-    <input type="button"><br></li>
-    </ul>
-    <a href="example/form.html">Ejemplo form.</a><br></li>
-<!-- 9--> 
-        <li style="color:#ff0088"><p><b> < footer ></b></p></li> 
+            <ul>
+                <li>
+                    < input type="text"><br><br>
+                        Mustra un campo de entrada de texto de una solo linea<br><br>
+                </li>
+                    <form action="post" >
+                        <input type="datetime" >
+                        <button type="submit"></button>
+                    </form>
+    
+                <li>
+                    < input type="radio"><br>
+                </li>
+                Muestra un botón de radio(para selecionar una de muchas opciones)<br>
+                <fieldset>
+                    <legend>Colores</legend>
+                    <label for="rojo">rojo</label>
+                    <input name="color" id="rojo" type="radio" value="rojo"> 
+                    <label for="verde">verde<label>
+                    <input name="color" id="verde" type="radio" value="verde"> 
+                    <label for="azul">azul</label>
+                    <input name="color" id="azul" type="radio" value="azul">
+                    <label for="negro">negro</label>
+                    <input name="color" id="negro" type="radio" value="negro">
+                </fieldset>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <label for="hombre">hombre</label>
+                    <input name="sexo" id="hombre" type="radio" value="hombre"> 
+                    <label for="mujer">mujer<label>
+                    <input name="sexo" id="mujer" type="radio" value="mujer"> 
+                </fieldset>
+                <br>
+                <li>
+                    < input type="checkbox"><br> 
+                </li>
+                Muestra una casilla de verificación(para selecionar cero o más opciónes)<br>
+                <fieldset>
+                    <legend>Programación</legend>
+                    <label for="">HTML</label>
+                    <input type="checkbox" value="HTML"> 
+                    <label for="">CSS</label>
+                    <input type="checkbox" value="CSS"> 
+                    <label for="">JS</label>
+                    <input type="checkbox" value="JS"> 
+                    <label for="">VSC</label>
+                    <input type="checkbox" value="VSC"> 
+                </fieldset>
+                    
+                <li>
+                    < input type="submit"><br>
+                        Muestra un botón de envio(para enviar el formulario)<br>
+                        <br>   
+                </li>
+                <input type="submit"><br>
+                <li>
+                    < input type="button"><br>
+                    Muestra un botón en e que sepuede hacer clic<br>
+                    <input type="button"><br>
+                </li>
+            </ul>
+                <a href="example/form.html">Ejemplo form.</a><br></li>
+            </ol>
+            <!-- 9-->
+            <li style="color:#ff0088">
+                <b>< footer></b>
+            </li>
             <p>Define un pie de página para un documento o sección<br>
                 Normalmente contien:<br>
-                <ul>
+            <ul>
                 <li> Información de autoría</li><br>
                 <li>Información de registro</li><br>
                 <li>Información del contacto</li><br>
                 <li>Mapa del sitio</li><br>
                 <li>Volver a los enlaces superiores</li><br>
                 <li>Documentos relacionados</li><br>
-                </ul>
+            </ul>
             <a href="example/footer.html" <> </a>
-<!-- 10     -->
-    <li style="color:#ff0088">
-            <p><b>< Header ></b></p></li>
-         Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.<br>
-         Normalmente contiene:<br>
+        </main>
+        
+        
+        <ol>
+            <!-- 10     -->
+            <li style="color:#ff0088">
+                <p><b>
+                        < Header>
+                    </b></p>
+            </li>
+            Representa un contenedor de contenido introductorio o un conjunto de enlaces de navegación.<br>
+            Normalmente contiene:<br>
             <ul>
-            <li>Uno a más elementos de encabezado (< h1> - < h6>)<br></li>
-            <li>Logotipo o icono<br></li>
-            <li>información de autoría<br></li>
-            
-            <b>NOTA:</b>Puede tener varios < header> en un documento HTML. Sin embargo, no sepuede colocar<br>
-            dentro de un < footer>, < address> u otro < header><br><br>
-            
-            Ejemplo<br><br> 
+                <li>Uno a más elementos de encabezado (< h1> - < h6>)<br></li>
+                <li>Logotipo o icono<br></li>
+                <li>información de autoría<br></li>
 
-                <h1>Encabezado de la página principal aquí</h1></p></p>
-            
-            Publicado el 17/08/2022<br></ul>
-<!--11-->
-     <li style="color:#ff0088"> <p> <b>< hgroup><br> </b></p></li>
-            <p>Generalmente se usa para agrupar un conjunto d euno o más elementos 
-            < h1> - < h6>, para agrupar, por ejemplo, un titulo de sección y un 
-            subtitulo adjunto.</p>  
-            
-        <a href="example/hgroup.html">Ejemplo hgroup </a> </li>
-<!-- 12 -->
-    <li style="color:#ff0088"><p><b> < h1> - < h6> </b></p></li> 
-    <button style="background-color: #008CBA; color: rgb(6, 6, 6); border: none; padding: 15px;"
-    <h1><b></b>Hola Mundo!</h1></b> <br></button>
+                <b>NOTA:</b>Puede tener varios < header> en un documento HTML. Sin embargo, no sepuede colocar<br>
+                    dentro de un < footer>, < address> u otro < header><br><br>
+
+                                Ejemplo<br><br>
+
+                                <h1>Encabezado de la página principal aquí</h1>
+                                </p>
+                                </p>
+
+                                Publicado el 17/08/2022<br>
+            </ul>
+            <!--11-->
+            <li style="color:#ff0088">
+                <p> <b>
+                        < hgroup><br>
+                    </b></p>
+            </li>
+            <p>Generalmente se usa para agrupar un conjunto d euno o más elementos
+                < h1> - < h6>, para agrupar, por ejemplo, un titulo de sección y un
+                        subtitulo adjunto.
+            </p>
+
+            <a href="example/hgroup.html">Ejemplo hgroup </a> </li>
+            <!-- 12 -->
+            <li style="color:#ff0088">
+                <p><b>
+                        < h1> - < h6>
+                    </b></p>
+            </li>
+            <button style="background-color: #008CBA; color: rgb(6, 6, 6); border: none; padding: 15px;" <h1><b></b>Hola
+                Mundo!</h1></b> <br></button>
             <p>Se utiliza para definir encabezado HTML. <br> Ejemplo</p>
-     <h6>Hola Mundo!</h6>
-<!-- 13 -->
-    <li style="color:#ff0088"><p><b> < img ></b></p></li> 
-        <p>Se utiliza para incrustar una imagen en una página HTML.<br>
-            Técnicamente, las imágenes no se insertan en una página web; las imágenes están 
-            vinculadas a páginas<br>
-            web. La etiqueta < ima> crea un espacio de espera para la imagen de referencia.
-            Tiene atributos obligatorios:</p>
+            <h6>Hola Mundo!</h6>
+            <!-- 13 -->
+            <li style="color:#ff0088">
+                <p><b>
+                        < img>
+                    </b></p>
+            </li>
+            <p>Se utiliza para incrustar una imagen en una página HTML.<br>
+                Técnicamente, las imágenes no se insertan en una página web; las imágenes están
+                vinculadas a páginas<br>
+                web. La etiqueta < ima> crea un espacio de espera para la imagen de referencia.
+                    Tiene atributos obligatorios:</p>
             <ul>
                 <li>src: especifica la ruta a la imagen</li>
                 <li>alt: especifica un texto alternativo para la imagen, si la imagen por algún
-                     motivo no se puede mostrar</li>
+                    motivo no se puede mostrar</li>
             </ul>
 
-    <a href="example/img.html">Ejemplo img</a>
-<!-- 14 -->
-    <li style="color:#ff0088"><p><b> 14.< map ></b></p></li> 
-        <p>Se utiliza para definir un mapa de imagen, es una imagen con áreas en las
-          que se puede hacer clic.<br>
-          El atributo de nombre requerido del < map > esta asocioado con el atributo
-          usemap de < img > y crea una<br> relación entre la imagen y el mapa.</p>
-                
+            <a href="example/img.html">Ejemplo img</a>
+            <!-- 14 -->
+            <li style="color:#ff0088">
+                <p><b> 14.< map></b></p>
+            </li>
+            <p>Se utiliza para definir un mapa de imagen, es una imagen con áreas en las
+                que se puede hacer clic.<br>
+                El atributo de nombre requerido del < map> esta asocioado con el atributo
+                    usemap de < img> y crea una<br> relación entre la imagen y el mapa.</p>
+
             <a href="example/map">Ejemplo map</a>
-        </li>
-<!-- 15 -->
-        <li style="color:#ff0088"><p><b> 15.< nav ></b></p></li> 
+            </li>
+            <!-- 15 -->
+            <li style="color:#ff0088">
+                <p><b> 15.< nav></b></p>
+            </li>
             <p>Define un conjunto de enlaces de navegación.<br>
-            Tenga en cuenta que NO todos los enlaces de un documento deben estar
-             dentro de un < nav>. Este<br> elemento está destinado solo para el 
-             bloque principal de enlaces de navegación. </p>
-            
-        <a href="example/nav.html">Ejemplo nav</a>
-    
-<!-- 16 -->
-    <li style="color:#ff0088"><p><b> < p ></b></p> </li>
-                <p>Define un párrafo.<br>
-                    Los navegadores agregan automáticamente una línea en blanco antes
-                    y después de cada <p></p>
-        <a href="example/p.html">Ejemplo p</a>
+                Tenga en cuenta que NO todos los enlaces de un documento deben estar
+                dentro de un < nav>. Este<br> elemento está destinado solo para el
+                    bloque principal de enlaces de navegación. </p>
 
-    <!-- 17-->
-    <li style="color:#ff0088"><p><b> < script > </b> </p> </li>
-                <p>Se utiliza para incrustar un script del lado del cliente JavaScript<br>
-        Contiene declaraciones de secuencias de comandos o apunta a un archivo de secuencia
-        de comandos<br>
-        externos a través del atributo src<br>
-        Los usus comunes de JavaScript son manipulación de imágenes, la validación de formularios
-        y los<br> cambios dinámicos de contenido.<br> Nota: cuando un navegador lee una hoja de 
-        estilo, formateará el documento HTML de acuerdo con la<br>
-        información de la hoja de estilo. Si se han definido algunas propiedades para el mismo 
-        selector<br> (elemento) en diferentes hojas de estilo, se utilizará el valor de la última 
-        hoja de estilo leída (consulte el<br> ejemplo a continuación).</p>
-                    
-        <a href="example/script.html">Ejemplo script </a>
-    <!-- 18 --> 
-    <li style="color:#ff0088"><p><b> < style > </b> </p> </li>
-    <p> Se utiliza para definir la información de estilo CSS de un documento<br>
-    Dentro de < style>, especifica cómo deben mostrarse los elementos HTML en un navegador.<br>
-    Ejemplo </p> 
+            <a href="example/nav.html">Ejemplo nav</a>
+
+            <!-- 16 -->
+            <li style="color:#ff0088">
+                <p><b>
+                        < p>
+                    </b></p>
+            </li>
+            <p>Define un párrafo.<br>
+                Los navegadores agregan automáticamente una línea en blanco antes
+                y después de cada
+            <p></p>
+            <a href="example/p.html">Ejemplo p</a>
+
+            <!-- 17-->
+            <li style="color:#ff0088">
+                <p><b>
+                        < script>
+                    </b > </p >
+            </li >
+                                <p>Se utiliza para incrustar un script del lado del cliente JavaScript<br>
+                                    Contiene declaraciones de secuencias de comandos o apunta a un archivo de secuencia
+                                    de comandos<br>
+                                        externos a través del atributo src<br>
+                                            Los usus comunes de JavaScript son manipulación de imágenes, la validación de formularios
+                                            y los<br> cambios dinámicos de contenido.<br> Nota: cuando un navegador lee una hoja de
+                                                estilo, formateará el documento HTML de acuerdo con la<br>
+                                                    información de la hoja de estilo. Si se han definido algunas propiedades para el mismo
+                                                    selector<br> (elemento) en diferentes hojas de estilo, se utilizará el valor de la última
+                                                        hoja de estilo leída (consulte el<br> ejemplo a continuación).</p>
+
+                                                        <a href="example/script.html">Ejemplo script </a>
+            <!-- 18 -->
+                                                        <li style="color:#ff0088">
+                                                            <p><b>
+                                                                < style>
+                                                            </b> </p>
+                                                        </li>
+                                                        <p> Se utiliza para definir la información de estilo CSS de un documento<br>
+                                                            Dentro de < style>, especifica cómo deben mostrarse los elementos HTML en un navegador.<br>
+                                                                Ejemplo </p>
 
 
-<!-- 19 -->
+                                                                <!-- 19 -->
 
-<li style="color:#ff0088"><p><b> < section > </b> </p> </li>
-    Define una sección en un documento
-    <a href="example/section.html"> <br> Ejemplo section </a>
-    
+                                                                <li style="color:#ff0088">
+                                                                    <p><b>
+                                                                        < section>
+                                                                    </b> </p>
+                                                                </li>
+                                                                Define una sección en un documento
+                                                                <a href="example/section.html"> <br> Ejemplo section </a>
 
-</ol>
-    
 
-</body>
-</html>
+                                                            </ol>
+
+
+                                                        </body>
+
+                                                        </html>
